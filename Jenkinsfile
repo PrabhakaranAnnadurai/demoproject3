@@ -9,7 +9,7 @@ pipeline {
         sh 'echo $USERNAME' >> /tmp/test.txt
         sh 'echo $PASSWORD' >> /tmp/test.txt
       }
-      }
+      
     }
   }
   environment {
