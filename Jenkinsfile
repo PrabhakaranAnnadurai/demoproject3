@@ -1,4 +1,5 @@
-pipeline {
+pipeline 
+{
   agent any
   
   stages {
@@ -11,6 +12,7 @@ pipeline {
       }
       
     }
+  }
   }
   environment {
     user = 'credentials(global-user1)'
