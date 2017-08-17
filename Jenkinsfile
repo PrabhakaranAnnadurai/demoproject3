@@ -8,6 +8,6 @@ pipeline {
     }
   }
   environment {
-    user = 'credentials(\'global-user1\')'
+    user = 'credentials(global-user1)'
   }
 }
