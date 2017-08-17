@@ -7,4 +7,7 @@ pipeline {
       }
     }
   }
+  environment {
+    user = 'credentials(\'global-user1\')'
+  }
 }
