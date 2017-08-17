@@ -10,8 +10,7 @@ pipeline
         sh 'echo $USERNAME >> /tmp/test.txt'  
       }
       }
-      
     }
   }
-  }
- }
+}
+ 
